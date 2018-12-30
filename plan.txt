@@ -1,0 +1,24 @@
+PLAN:
+Why do I want to do this:
+Because it's cool- always love to see my stats at the end of the year. Not all stats that are shown during that time are accessible through the API, but you can see other info that hasn't really been released or finalized.
+
+Have an app that:
+1. makes users log in
+2. shows them stats about their spotify usage
+	a. User's Top Artists and Tracks
+		i. lets them choose the time range (long-term (years), medium (abt 6 months), short term (4 weeks))
+
+Track info:
+1. Allow searching for a track (later- add albums and artists)
+	a. later, allow them to put a list of songs
+2. Once chosen, allows them to see data
+	a. basics- album, artist, year
+	b. genres
+	c. popularity (?)
+	d. cooler stuff: (audiofeaturesobject) acousticness, danceability, energy, instrumentalness(?), liveness, loudness, speechiness, valence
+	e. musical stuff: duration?, key, mode (major/minor), tempo
+
+Later ideas:
+-Allow user to view the avg popularity of their favorite tracks
+	- Could also be any other trait of their favorite tracks
+	- Or even a playlist if they allow access to it
